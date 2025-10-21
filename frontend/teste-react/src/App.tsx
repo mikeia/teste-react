@@ -1,13 +1,11 @@
 import { useState } from 'react'
-
+import  ListUsers from '../src/components/ListUsers'
 
 function App() {
 
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white text-3xl font-bold">
-      Tailwind tá rodando 🔥
-    </div>
+    <ListUsers/>
   )
 }
 
